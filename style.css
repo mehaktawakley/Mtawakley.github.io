@@ -1,0 +1,102 @@
+html{
+	min-height: 100%;
+	background : linear-gradient(to bottom, #1fa2ff, #12d8fa, #a6ffcb);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*animation: bck;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;*/ 
+}
+
+/*@keyframes bck{
+	0% {background: linear-gradient(to right top, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	12.5% {background: linear-gradient(to right, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	25% {background: linear-gradient(to right bottom, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	37.5% {background: linear-gradient(to bottom, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	50% {background: linear-gradient(to left bottom, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12); }
+	62.5% {background: linear-gradient(to left, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	75% {background: linear-gradient(to left top, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	87.5% {background: linear-gradient(to top, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+	100% {background: linear-gradient(to right top, #00e9c0, #00eca6, #00ed85, #00ed5b, #38eb12);}
+}*/
+
+body{
+	margin: 0px;
+	color: black;
+	font-family: 'Poiret One', 'Poor Richard';
+	font-size: 50px;
+	text-align: center;	
+	line-height: 5px;
+
+}
+
+@keyframes anm{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
+#main{
+	width: 30vw;
+	height: 30vw;
+	min-width: 3.5em;
+	min-height: 3.5em;
+	border-radius: 50%;
+	border: black solid;
+	box-shadow: black -7px -7px 20px;
+	position: absolute;
+	top: calc(50% - 15vw);
+	left: calc(50% - 15vw);
+	z-index: -1;
+	font-weight: bold;
+}
+
+#main1{
+	width: 30vw;
+	height: 30vw;
+	min-width: 3.5em;
+	min-height: 3.5em;
+	border-radius: 50%;
+	border: black solid;
+	box-shadow: black 7px 7px 20px, black -3px -3px 20px ;
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	right: 10%;
+	z-index: -1;
+	animation-name: anm; 
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: reverse;
+}
+
+#main2{
+	width: 28vw;
+	height: 28vw;
+	min-width: 3.5em;
+	min-height: 3.5em;
+	border-radius: 50%;
+	border: black solid;
+	box-shadow: black 7px 10px 20px, black -7px -3px 20px ;
+	position: fixed;
+	top: 2%;
+	left: 2.5%;
+	right: 10%;
+	z-index: -1;
+	animation-name: anm; 
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+#img1 img:hover, #img2 img:hover, #img3 img:hover{
+	transform: scale(2,2);
+}
+
+#you
+{
+	width: 70%;
+	margin: auto;
+	font-size: 30px;
+	line-height: 25px;
+	margin-top: 5px;
+	color: white;
+}
