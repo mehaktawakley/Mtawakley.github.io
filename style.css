@@ -141,6 +141,9 @@ body{
 		height: 58vw;
 		width: 58vw;
 	}
+	#fname{
+		margin-top:15vw;
+	}
 	#fname,#lname{
 		font-size: 30px;
 	}
