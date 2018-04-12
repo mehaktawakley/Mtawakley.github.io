@@ -38,8 +38,6 @@ body{
 #main{
 	width: 30vw;
 	height: 30vw;
-	min-width: 3.5em;
-	min-height: 3.5em;
 	border-radius: 50%;
 	border: black solid;
 	box-shadow: black -7px -7px 20px;
@@ -53,8 +51,6 @@ body{
 #main1{
 	width: 30vw;
 	height: 30vw;
-	min-width: 3.5em;
-	min-height: 3.5em;
 	border-radius: 50%;
 	border: black solid;
 	box-shadow: black 7px 7px 20px, black -3px -3px 20px ;
@@ -72,8 +68,6 @@ body{
 #main2{
 	width: 28vw;
 	height: 28vw;
-	min-width: 3.5em;
-	min-height: 3.5em;
 	border-radius: 50%;
 	border: black solid;
 	box-shadow: black 7px 10px 20px, black -7px -3px 20px ;
@@ -116,5 +110,23 @@ body{
 	#main2{
 		height: 38vw;
 		width: 38vw;
+	}
+}	
+@media screen and (max-width: 500px){
+	#main,#main1{
+		height: 60vw;
+		width: 60vw;
+	}
+	#main{
+		top: calc(50% - 30vw);
+		left: calc(50% - 30vw);
+	}
+	#you{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	#main2{
+		height: 58vw;
+		width: 58vw;
 	}
 }	
