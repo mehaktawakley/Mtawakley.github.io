@@ -124,7 +124,7 @@ body{
 		width: 38vw;
 	}
 }	
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	#main,#main1{
 		height: 60vw;
 		width: 60vw;
