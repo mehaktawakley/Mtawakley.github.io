@@ -94,6 +94,18 @@ body{
 	margin-top: 5px;
 	color: white;
 }
+#fname{
+	text-align: center; 
+	margin-top:11vw; 
+	margin-bottom: 0;
+}
+#lname{
+	text-align: center;
+}
+.iconimg{
+	height: 50px;
+	width: 50px;
+}
 @media screen and (max-width: 1165px){
 	#main,#main1{
 		height: 40vw;
@@ -129,10 +141,10 @@ body{
 		height: 58vw;
 		width: 58vw;
 	}
-	p{
+	#fname,#lname{
 		font-size: 30px;
 	}
-	img{
+	.iconimg{
 		height:30px;
 		width:30px;
 	}
